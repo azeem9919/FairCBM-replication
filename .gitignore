@@ -2,3 +2,7 @@
 *.csv
 data/
 *.png
+copy_split_images.py
+skincap_split_seed42/test/
+skincap_split_seed42/train/
+skincap_split_seed42/val/
