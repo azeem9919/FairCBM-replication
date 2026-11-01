@@ -22,3 +22,4 @@ skincap_split_seed42/val/
 /logs/vram_log.txt
 !/predictions/
 !/predictions/*.csv
+!/scripts/predict.py
