@@ -29,5 +29,5 @@ Single seed, ~40 test positives: the fair-vs-baseline difference is not statisti
 ## How to reproduce
 git clone https://github.com/matthew-cockayne/FairCBM && cd FairCBM
 git checkout 478eae6
-git apply patches/dataloader_fallback.patch   # patch is in azeem9919/FairCBM-replication
+git apply /path/to/FairCBM-replication/patches/dataloader_fallback.patch   # path to this repo's patch file
 Then obtain SkinCAP yourself and run the commands above.
