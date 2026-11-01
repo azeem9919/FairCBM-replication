@@ -20,3 +20,5 @@ skincap_split_seed42/val/
 /copy_split_images.py
 /logs/smoke_swin.log
 /logs/vram_log.txt
+!/predictions/
+!/predictions/*.csv
