@@ -1,0 +1,13 @@
+diff --git a/src/data/dataloader.py b/src/data/dataloader.py
+index 068b859..9cee32f 100644
+--- a/src/data/dataloader.py
++++ b/src/data/dataloader.py
+@@ -125,6 +125,8 @@ class SkinCapDataset(Dataset):
+             # Image directory (parent of CSV or specified root_dir)
+             if os.path.isdir(os.path.join(os.path.dirname(raw_csv), 'skincap')):
+                 self.img_dir = os.path.join(os.path.dirname(raw_csv), 'skincap')
++            elif os.path.isdir(os.path.join(root_dir, 'skincap')):
++                self.img_dir = os.path.join(root_dir, 'skincap')
+             else:
+                 self.img_dir = root_dir
+         else:
