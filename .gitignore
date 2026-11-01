@@ -6,3 +6,17 @@ copy_split_images.py
 skincap_split_seed42/test/
 skincap_split_seed42/train/
 skincap_split_seed42/val/
+
+# Upstream FairCBM code: kept locally, never committed
+/src/
+/slurm/
+/figures/
+/requirements.txt
+/README.md
+/scripts/*
+!/scripts/verify_setup.py
+/skincap_split_seed42/
+/analysis/
+/copy_split_images.py
+/logs/smoke_swin.log
+/logs/vram_log.txt
